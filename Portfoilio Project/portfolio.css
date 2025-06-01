@@ -1,0 +1,31 @@
+nav{
+    position: sticky;
+    align-items: center;
+    height: 50px;
+    padding: 5px;  
+    clear: left;  
+}
+
+#devName{
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    margin: 7.25%;
+}
+
+#purpose{
+    font-size: 50px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    border: dashed
+}
+
+.pageNotice{
+    size: 400px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
