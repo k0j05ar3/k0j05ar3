@@ -1,0 +1,4 @@
+- [ ] Work on styling
+- [ ] Learn more advanced CSS techniques
+- [ ] Learn more advanced Git to stop relying on GUI
+- [ ] Add more content to slow down computer 😜

@@ -15,7 +15,7 @@ The website serves as my portfolio and a link and access to every one of my proj
 - [Discord]()
 - [Twitter]()
 - [Reddit]()
-- [Github]().... wait you're already here 😅
+- [GitHub](https://github.com/k0j05ar3).... wait you're already here 😅
 
 ## Thank You
 Thank you for taking the time to look through my profile.
