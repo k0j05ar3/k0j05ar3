@@ -1,0 +1,117 @@
+html {
+    font-size: 20px; 
+    background-color: black;
+    color: white;
+    font: 20px "Barlow Semi Condensed", "Arial", sans-serif;
+}
+
+body {
+    padding-top: 70px; /* adjust this value to match your nav height */
+}
+
+#logoText{
+    font-weight: 1000;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    color: red;
+}
+
+nav > ul > li{
+    display: inline-block;
+
+    padding-top: 10px;
+}
+
+nav {
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width: 99%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(7, 7, 7);
+    border-bottom: solid 1px red
+}
+
+nav > ul > li > a{
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#homePageBody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#homePageBody > img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+    height: 50%;
+    margin: 25%;
+}
+
+#homePageBody > div{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-items: center;
+    margin-top: 35%;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px, 100px, 100px;
+    column-gap: 10px;
+    row-gap: 5px;
+    border-bottom: red solid 1px;
+    background-color: rgb(12, 12, 12);
+}
+
+.project > h3{
+    grid-column: 1 / span 2;
+}
+
+.project > iframe{
+    grid-row: 2 / span 2;
+}
+
+.projectTitle{
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.finalizedDate{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 47%;
+    margin-right: 2.5%;
+    text-align: right;
+}
+
+body > div > h2{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#projectPageInfo{
+    border-bottom: solid 1px red;
+}
