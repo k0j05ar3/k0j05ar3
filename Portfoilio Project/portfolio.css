@@ -1,37 +1,36 @@
-html {
+/* ---- Default ---- */
+html { /* Root element sets default setigns */
     font-size: 20px; 
     background-color: black;
     color: white;
     font: 20px "Barlow Semi Condensed", "Arial", sans-serif;
 }
 
-body {
+body { 
     padding-top: 70px; /* adjust this value to match your nav height */
 }
-
-#logoText{
+/* ---- Navigation Bar ---- */
+#logoText{ /* Logo text styling */
     font-weight: 1000;
     font-size: 40px;
     padding: 0;
     margin: 0;
 }
 
-nav > ul {
+nav > ul { /* Navigation bar list styling */
     list-style-type: none;
     float: right;
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
     color: red;
 }
 
-nav > ul > li{
+nav > ul > li{ /* Navigation bar list item styling */
     display: inline-block;
-
     padding-top: 10px;
 }
 
-nav {
+nav { /* Navigation bar styling */
     padding: 10px;
     position: fixed;
     top: 0px;
@@ -42,38 +41,38 @@ nav {
     border-bottom: solid 1px red
 }
 
-nav > ul > li > a{
+nav > ul > li > a{ /* Navigation bar link styling */
     padding: 10px;
     color: red;
     text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+nav > ul > li > a:hover { /* Navigation bar link hover effect */
     color: white;
     text-decoration: underline;
 }
-
-#homePageBody{
+/* ---- Home Page ---- */
+#homePageBody{ /* Home page body styling */
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-#homePageBody > img{
+#homePageBody > img{ /* Home page image styling */
     grid-column-start: 1;
     grid-column-end: 2;
     align-items: center;
     height: 50%;
     margin: 25%;
 }
-
-#homePageBody > div{
+ 
+#homePageBody > div{ /* Home page text styling */
     grid-column-start: 2;
     grid-column-end: 3;
     align-items: center;
     margin-top: 35%;
 }
-
-.project{
+/* ---- Project Page ---- */
+.project{ /* Project page styling */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px, 100px, 100px;
@@ -81,37 +80,189 @@ nav > ul > li > a:hover {
     row-gap: 5px;
     border-bottom: red solid 1px;
     background-color: rgb(12, 12, 12);
+    margin: 10px;
+    border-radius: 2.5%;
+    width: 99%;
 }
 
-.project > h3{
+.project > h3{ /* Project title styling */
     grid-column: 1 / span 2;
 }
 
-.project > iframe{
-    grid-row: 2 / span 2;
+.projectDescription{ /* Project description styling */
+    margin: 4%;
 }
 
-.projectTitle{
+.project > iframe{ /* Project embed styling */
+    grid-row: 2 / span 2;
+    border-radius: 5%;
+    margin: 2.5%;
+
+}
+
+.projectTitle{ /* Project title styling */
     font-weight: 600;
     font-size: 25px;
     text-decoration: underline;
+    margin: 1%;
 }
 
-.finalizedDate{
+.finalizedDate{ /* Porject finalized date styling */
     font-weight: 100;
     font-size: 15px;
     margin-top: 47%;
-    margin-right: 2.5%;
+    margin-right: 4%;
     text-align: right;
 }
 
-body > div > h2{
+#projectPageInfo { /* Project page info styling */
+    border-bottom: solid 1px red;
+}
+
+.project:hover { /* Project hover effect */
+    background-color: rgb(20, 20, 20);
+}
+
+/*------*/
+body > div > h2{ /* header styling */
     text-align: center;
     font-weight: 1000;
     font-size: 30px;
     margin-top: 20px;
 }
 
-#projectPageInfo{
+/*---- Coming Soon ----*/
+#conceptionPage{ /* Coming soon page styling */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    
+}
+
+.announcing{ /* Announcing text styling */
+    grid-column: 1 / span 2;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    border-top: solid 1px red;
+}
+
+.announcementCard{
+    display: none;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: rgb(12, 12, 12);
+    width: 75%;
+    height: 300px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 20px;
+    border-radius: 5%;
     border-bottom: solid 1px red;
+    
+}
+
+.announcementCard > h3{
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
+
+.announcementDescription{
+    text-align: center;
+    grid-row: 2;
+    grid-column: 2;
+    width: 75%;
+}
+
+.announcementCard > img{
+    grid-row: 2 / span 2;
+    width: 55%;
+    margin-left: 25%;
+    border-radius: 7%;
+}
+
+.announcementDate{
+    text-align: right;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 5%;
+}
+
+/* Development Section */
+.development{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(7, 7, 7);
+    border-bottom: solid 1px red;
+}
+
+.developmentCard{
+    display: none;
+    grid-column: 1 / span 2;
+    background-color: rgb(12, 12, 12);
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-bottom: solid 1px red;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+.developmentCard > img{
+    width: 85%;
+    margin: 5.5%;
+    grid-row: 1 / span 2;
+    border-radius: 7%;
+}
+
+.developmentCard > h3, p{
+    width: 100%;
+    text-align: center;
+}
+
+.development > h2{
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+/* Ideas Section */
+.ideas{ /* Ideas section styling */
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(7, 7, 7);
+    border-bottom: solid 1px red;
+}
+
+.ideas > h2{
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.ideaCard{ /* Idea card styling */
+    display: none;
+    grid-column: 1 / span 2;
+    background-color: rgb(12, 12, 12);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    border-radius: 5%;
+    border-bottom: solid 1px red;
+    margin: 2%;
+}
+
+.ideaCard > h3{
+    text-align: center;
+    grid-column: 1;
+    width: 100%;
+    margin-top: 10%;
+}
+
+h2{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+section > section:hover{
+    background-color: rgb(20, 20, 20);
 }
