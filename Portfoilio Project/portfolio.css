@@ -111,7 +111,8 @@ nav > ul > li > a:hover { /* Navigation bar link hover effect */
     font-weight: 100;
     font-size: 15px;
     margin-top: 47%;
-    margin-right: 4%;
+    margin-left: -3%;
+    margin-right: 50%;
     text-align: right;
 }
 
