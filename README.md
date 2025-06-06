@@ -8,6 +8,7 @@ This is the profile of Kelvin Asare on GitHub.
 
 ## Purpose
 The website serves as my portfolio and a link and access to every one of my projects from when I started to save them to where I am at the moment. 
+[Portfolio](https://k0j05ar3.github.io/k0j05ar3/)
 
 ## Contact:
 - [Instagram]()
