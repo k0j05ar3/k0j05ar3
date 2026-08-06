@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=k0j05ar3&theme=dark&show_icons=true&hide_border=false&count_private=false" alt="k0j05ar3's stats">
+	<img src="https://ghstats.dev/api/card?username=k0j05ar3&hide_title=true&border_radius=25&size=compact" alt="GitHub Stats Card" />
 </p>
 <br>
 <img src="https://img.shields.io/badge/Made_By-K0J05AR3-red?style=for-the-badge">
