@@ -7,14 +7,14 @@
 
 <h2 align="center">Tech Stack</h2>
 <h3>Languages</h3>
-<p align="center">
+<p>
 	<img src="https://badges.aleen42.com/src/python.svg">
 	<img src="https://badges.aleen42.com/src/html5.svg">
 	<img src="https://badges.aleen42.com/src/javascript.svg">
 	<img src="https://badges.aleen42.com/src/css3.svg">
 </p>
 <h3>Tools</h3>
-<p align="center">
+<p>
 	<img src="https://badges.aleen42.com/src/visual_studio_code.svg">
 	<img src="https://badges.aleen42.com/src/github.svg">
 	
